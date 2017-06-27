@@ -29,3 +29,5 @@ gradle.properties
 gradle/
 gradlew
 gradlew.bat
+*.cfg
+*.log
