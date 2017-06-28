@@ -31,3 +31,8 @@ gradlew
 gradlew.bat
 *.cfg
 *.log
+logs/
+saves/
+usercache.json
+usernamecache.json
+
