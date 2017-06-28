@@ -5,8 +5,11 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 
-@Mod(modid = "mccpsmods", version = "1.0")
+@Mod(modid = Main.MODID, version = Main.VERSION)
 public class Main {
+	
+	public final static String MODID = "mccpsmods";
+	public final static String VERSION = "1.0";
 	
 	@EventHandler
 	public void init(FMLInitializationEvent event)

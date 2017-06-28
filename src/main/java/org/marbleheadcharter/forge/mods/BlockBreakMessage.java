@@ -10,7 +10,8 @@ public class BlockBreakMessage {
 	public void sendMessage(BreakEvent event)
 	{
 		EntityPlayer player = event.getPlayer();
-		player.sendMessage(new TextComponentString("You broke a block"));
+		String playerName = player.getDisplayNameString();
+		player.sendMessage(new TextComponentString(playerName + " broke a block"));
 	}
 
 }
